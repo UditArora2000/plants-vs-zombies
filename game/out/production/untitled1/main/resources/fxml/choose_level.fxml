@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="659.0" prefWidth="1129.0" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.choose_level_controller">
+   <children>
+      <ImageView fitHeight="659.0" fitWidth="1129.0" pickOnBounds="true">
+         <image>
+            <Image url="@../choose_level_background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level1" fitHeight="264.0" fitWidth="266.0" layoutX="178.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../levels/level1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level2" fitHeight="264.0" fitWidth="266.0" layoutX="458.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../levels/level2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level3" fitHeight="264.0" fitWidth="266.0" layoutX="730.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../levels/level3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level4" fitHeight="264.0" fitWidth="266.0" layoutX="320.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../levels/level4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level5" fitHeight="264.0" fitWidth="266.0" layoutX="598.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../levels/level5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="main_menu" fitHeight="97.0" fitWidth="446.0" layoutX="652.0" layoutY="563.0" onMouseClicked="#clicked_back_to_main_menu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../levels/back_to_main_menu.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

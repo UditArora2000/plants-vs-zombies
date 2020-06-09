@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="root_AnchorPane" prefHeight="659.0" prefWidth="1129.0" xmlns="http://javafx.com/javafx/8.0.231" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.lawn_controller">
+    <children>
+        <ImageView fitHeight="659.0" fitWidth="1130.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <image>
+                <Image url="@../lawn.png" />
+            </image>
+        </ImageView>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2a598503" height="50.0" layoutX="638.0" layoutY="7.0" stroke="#56569a" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="20.0" width="303.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="34.0" layoutX="644.0" layoutY="16.0" stroke="BLACK" strokeType="INSIDE" width="288.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="34.0" layoutX="789.0" layoutY="16.0" stroke="#ada31700" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" visible="false" width="144.0">
+            <fill>
+                <LinearGradient endX="0.5194174757281553" endY="0.10679611650485438" startX="0.5097087378640777" startY="1.0">
+                    <stops>
+                        <Stop color="#85c263" />
+                        <Stop color="#c2d05b" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </fill></Rectangle>
+
+        <ImageView fitHeight="50.0" fitWidth="56.0" layoutX="642.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../brainflag.png" />
+            </image>
+        </ImageView>
+
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#720e0b" height="50.0" layoutX="131.0" layoutY="7.0" stroke="BLACK" strokeType="INSIDE" width="164.0" />
+        <ImageView fitHeight="49.0" fitWidth="69.0" layoutX="137.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../brightsun.png" />
+            </image>
+        </ImageView>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fffa92" height="35.0" layoutX="191.0" layoutY="14.0" stroke="#00000002" strokeType="INSIDE" width="95.0" />
+        <ImageView fx:id="menu" fitHeight="64.0" fitWidth="175.0" layoutX="953.0" layoutY="7.0" onMouseClicked="#menu_clicked" onMouseEntered="#menu_entered" onMouseExited="#menu_exited" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../menu.jpg" />
+            </image>
+        </ImageView>
+
+
+    </children>
+</AnchorPane>

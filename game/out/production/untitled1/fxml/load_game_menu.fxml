@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="659.0" prefWidth="1129.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.load_game_menu_controller">
+
+    <children>
+        <ImageView fitHeight="659.0" fitWidth="1129.0" pickOnBounds="true">
+            <image>
+                <Image url="@../choose_level_background.jpg" />
+            </image>
+        </ImageView>
+      <ImageView fx:id="main_menu1" fitHeight="97.0" fitWidth="446.0" layoutX="662.0" layoutY="573.0" onMouseClicked="#clicked_back_to_main_menu" onMouseEntered="#back_to_menu_entered" onMouseExited="#back_to_menu_exited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../levels/back_to_main_menu.png" />
+         </image>
+      </ImageView>
+        <ImageView fx:id="level1" fitHeight="264.0" fitWidth="266.0" layoutX="162.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../save_load/1.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="level2" fitHeight="264.0" fitWidth="266.0" layoutX="437.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../save_load/2.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="level3" fitHeight="264.0" fitWidth="266.0" layoutX="695.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../save_load/3.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="level4" fitHeight="264.0" fitWidth="266.0" layoutX="162.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../save_load/4.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="level5" fitHeight="264.0" fitWidth="266.0" layoutX="437.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../save_load/5.png" />
+            </image>
+        </ImageView>
+      <ImageView fx:id="level6" fitHeight="264.0" fitWidth="266.0" layoutX="694.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../save_load/6.png" />
+         </image>
+      </ImageView>
+        <ImageView fitHeight="97.0" fitWidth="446.0" layoutX="318.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../save_load/heading_load.png" />
+            </image>
+        </ImageView>
+    </children>
+
+</AnchorPane>

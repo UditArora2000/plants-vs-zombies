@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="434.0" prefWidth="627.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.in_game_menu_controller">
+   <children>
+      <ImageView fx:id="back" fitHeight="113.0" fitWidth="454.0" layoutX="90.0" layoutY="27.0" onMouseClicked="#back_clicked" onMouseEntered="#back_entered" onMouseExited="#back_exited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../in_menu_options/back_to_game.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="restart" fitHeight="643.0" fitWidth="454.0" layoutX="87.0" layoutY="119.0" onMouseClicked="#restart_clicked" onMouseEntered="#restart_entered" onMouseExited="#restart_exited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../in_menu_options/restart.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="save" fitHeight="643.0" fitWidth="454.0" layoutX="90.0" layoutY="207.0" onMouseClicked="#save_clicked" onMouseEntered="#save_entered" onMouseExited="#save_exited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../in_menu_options/save.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="exit" fitHeight="643.0" fitWidth="454.0" layoutX="90.0" layoutY="293.0" onMouseClicked="#exit_clicked" onMouseEntered="#exit_entered" onMouseExited="#exit_exited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../in_menu_options/exit.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
